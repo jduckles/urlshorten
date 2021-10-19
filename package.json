@@ -1,0 +1,19 @@
+{
+  "private": true,
+  "name": "urlshorten",
+  "version": "1.0.0",
+  "description": "URL Shortening as a CloudFlare Worker",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "format": "prettier --write '**/*.{js,css,json,md}'"
+  },
+  "author": "Jonah Duckles <jonah@duckles.org>",
+  "license": "MIT",
+  "devDependencies": {
+    "prettier": "^1.18.2"
+  },
+  "dependencies": {
+    "itty-router": "^2.4.4"
+  }
+}

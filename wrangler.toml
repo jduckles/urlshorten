@@ -1,0 +1,11 @@
+name = "url-shorten"
+type = "webpack"
+account_id = "f9ff33882f8b61f613eec5161725d279"
+workers_dev = true
+route = "dnz.nz/*" # Set this to your own domain
+zone_id = "712c9e9939616a6cb8f8eb091b2e6924"
+compatibility_date = "2021-10-15"
+kv_namespaces = [
+	 { binding = "urls", id = "91d5702160ee46bca3a87eefdf55bb70", preview_id = "91d5702160ee46bca3a87eefdf55bb70" }
+]
+
